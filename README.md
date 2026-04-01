@@ -81,9 +81,6 @@ Desenvolvedor Full Stack em formação com foco em aplicações web modernas. Po
 
 <div align="center">
 
-### Contribuições no GitHub
-
-![GitHub Snake](https://raw.githubusercontent.com/IsaqueNCM/IsaqueNCM/output/github-contribution-grid-snake.svg)
 
 **Entre em contato para oportunidades de colaboração ou visualização de projetos completos.**
 
