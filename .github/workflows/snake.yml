@@ -2,8 +2,8 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # todo dia à meia-noite
-  workflow_dispatch:      # permite rodar manualmente
+    - cron: "0 0 * * *"     # todo dia à meia-noite
+  workflow_dispatch:        # permite rodar manualmente
 
 jobs:
   build:
@@ -17,9 +17,10 @@ jobs:
         with:
           github_user_name: IsaqueNCM
           svg_out_path: github-contribution-grid-snake.svg
+          output_branch: output          # ← Correção importante
 
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update snake contribution grid"
+          commit_message: Update GitHub Snake
           branch: output
